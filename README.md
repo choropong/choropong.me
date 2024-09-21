@@ -1,2 +1,10 @@
-# choropong.me
-https://choropong.me
+# Ch.me
+👋 환영합니다! 👋
+
+**Choropong.me**는 초로퐁의 간단한 소개 사이트입니다!
+
+~~물론 이 사이트도 AI의 도움을 받았습니다~~
+
+저에 대해 궁금하시다면 한번쯤 구경해보시는것도 좋을 것 같아요 😀
+
+###### 사이트가 궁금하시다면? ▷ <a href="https://choropong.me">사이트</a>
