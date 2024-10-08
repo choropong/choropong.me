@@ -2,8 +2,8 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* 가로 스크롤 바 숨김 */
-    background-color: #191940;
+    overflow-x: hidden;
+    background-color: #171717;
     color: white;
     font-family: 'Poppins', sans-serif;
 }
@@ -13,36 +13,29 @@ body {
     flex-direction: column;
 }
 
-/* 이미지를 화면 크기에 맞춰 조정하는 스타일 */
-.responsive-img {
-    max-width: 100%;  /* 이미지가 창 너비의 100% 이상 넘지 않도록 함 */
-    height: auto;     /* 비율을 유지하면서 자동으로 높이 조정 */
-    object-fit: contain;  /* 이미지가 잘리지 않도록 조정 */
-}
-
 .center-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 100vh; /* 화면의 최소 높이 */
-    padding: 20px; /* 여백 추가 */
+    min-height: 100vh;
+    padding: 20px;
 }
 
 .text-group {
-    margin-bottom: 50px; /* 텍스트 그룹 사이의 여유 공간 */
+    margin-bottom: 50px;
 }
 
 .opa {
     opacity: 0;
-    transform: translateY(-20px); /* 초기 위치를 위로 이동 */
+    transform: translateY(-20px);
     transition: opacity 1.5s ease-out, transform 1.5s ease-out;
 }
 
 .opa.visible {
     opacity: 1;
-    transform: translateY(0); /* 최종 위치 */
+    transform: translateY(0);
 }
 
 .content-wrapper {
@@ -100,7 +93,7 @@ h3 {
 
 /* 스크롤 바 스타일 */
 ::-webkit-scrollbar {
-    width: 12px; /* 스크롤바 너비 */
+    width: 12px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -110,6 +103,24 @@ h3 {
 
 ::-webkit-scrollbar-track {
     background: rgba(0, 0, 0, 0.1);
+}
+
+.h1img {
+    width: 5.5vw;
+    height: auto;
+    max-width: 512px;
+}
+
+.h2img {
+    width: 4vw;
+    height: auto;
+    max-width: 512px;
+}
+
+.h3img {
+    width: 2vw;
+    height: auto;
+    max-width: 512px;
 }
 
 .modal-content {
